@@ -1,0 +1,13 @@
+
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/tiny-missing-grad.iml
+.idea/vcs.xml
+linear/__pycache__/__init__.cpython-37.pyc
+linear/__pycache__/base.cpython-37.pyc
+model/__pycache__/__init__.cpython-37.pyc
+model/__pycache__/sequential.cpython-37.pyc
+linear/__pycache__/linear.cpython-37.pyc
+*.pyc
