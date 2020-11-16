@@ -33,3 +33,7 @@ class Linear(Layer):
 
     def backward(self, d: np.array) -> np.array:
         return self.EBP @ d
+
+    def update(self, lr: float = 1e-2):
+        self.b -= lr * self.b_update
+        self.W -= lr * self.W_update

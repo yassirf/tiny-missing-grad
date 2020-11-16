@@ -53,7 +53,7 @@ class Layer(object):
     def _get_grad(self, x: np.array, z: np.array) -> np.array:
         pass
 
-    def get_params_update(self, x: np.array, d: np.array):
+    def get_params_update(self, d: np.array):
         pass
 
     def backward(self, d: np.array) -> np.array:

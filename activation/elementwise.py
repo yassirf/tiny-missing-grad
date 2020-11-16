@@ -63,8 +63,9 @@ class Sigmoid(Activation):
         return y
 
     def _get_grad(self, z: np.array, y: np.array) -> np.array:
+        # Inputs batch x dim x 1
         grad = y * (1 - y)
-        grad = np.array([np.diag(v) for v in grad])
+        grad = np.array([np.diag(v.flatten()) for v in grad])
         return grad
 
     def backward(self, d: np.array) -> np.array:
